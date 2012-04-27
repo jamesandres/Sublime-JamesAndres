@@ -1,3 +1,6 @@
+# Compiled files
+.pyc
+
 # Project files, and other junk
 .DS_Store?
 Icon?

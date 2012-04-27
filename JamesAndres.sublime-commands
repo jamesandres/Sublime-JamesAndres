@@ -9,4 +9,19 @@
 {
   "caption": "JA: PHP Unserialize",
   "command": "ja_php_unserialize"
+},
+{
+  "caption": "JA: Columnizer 2-Columns",
+  "command": "ja_columnizer",
+  "args": {"columns": 2}
+},
+{
+  "caption": "JA: Columnizer 3-Columns",
+  "command": "ja_columnizer",
+  "args": {"columns": 3}
+},
+{
+  "caption": "JA: Columnizer Fit Within Ruler",
+  "command": "ja_columnizer",
+  "args": {"columns": "fit"}
 }]
