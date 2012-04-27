@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$form['${1:my_file}'] = array(
+  '#type' =&gt; 'file',
+  '#title' =&gt; t('${2:My File}'),
+  '#size' =&gt; ${3:40},
+  '#description' =&gt; t('${4:Please choose a file to upload.}'),
+  '#required' =&gt; ${5:FALSE},
+);</string>
+	<key>name</key>
+	<string>form_file</string>
+	<key>tabTrigger</key>
+	<string>form_file</string>
+	<key>uuid</key>
+	<string>13C1D910-3A8A-4825-A25D-AFDF5A23FE28</string>
+</dict>
+</plist>

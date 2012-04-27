@@ -1,0 +1,6 @@
+<snippet>
+  <tabTrigger>hook</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_${1:}().
+ */]]></content>
+</snippet>

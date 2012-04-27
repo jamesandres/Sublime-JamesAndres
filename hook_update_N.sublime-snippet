@@ -1,0 +1,14 @@
+<snippet>
+  <tabTrigger>hook_update_N</tabTrigger>
+  <content><![CDATA[/**
+ * Implementation of hook_update_N().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_update_${1:/* Update number */}() {
+  \$ret = array();
+
+  ${3:\$ret[] = array('success' => TRUE, 'query' => "${4:Successfully installed ...}");}
+
+  return \$ret;
+}
+]]></content>
+</snippet>

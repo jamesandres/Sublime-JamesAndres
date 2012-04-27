@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$form['${1:my_fieldset}'] = array(
+  '#type' =&gt; 'fieldset',
+  '#title' =&gt; t('${2:My Fieldset}'),
+  '#collapsible' =&gt; ${3:TRUE},
+  '#collapsed' =&gt; ${4:FALSE},
+  '#description' =&gt; t('${5:An, optional, fieldset description.}'),
+);</string>
+	<key>name</key>
+	<string>form_fieldset</string>
+	<key>tabTrigger</key>
+	<string>form_fieldset</string>
+	<key>uuid</key>
+	<string>400E384C-BA9F-43E8-A39B-EE1B0A4E9E9D</string>
+</dict>
+</plist>

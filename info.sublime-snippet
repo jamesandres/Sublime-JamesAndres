@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+name = ${1:Module Name}
+description = ${2:Module description.}
+core = ${3:6.x}
+version = ${4:6.x-1.0}
+${5:package = Group Name
+}${7:dependencies[] = cck}
+]]></content>
+  <tabTrigger>info</tabTrigger>
+</snippet>

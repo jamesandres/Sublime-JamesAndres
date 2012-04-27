@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$form['${1:my_checkbox}'] = array(
+  '#type' =&gt; 'checkboxes',
+  '#title' =&gt; t('${2:My Checkbox}'),
+  '#default_value' =&gt; ${3:0},
+  '#options' =&gt; array(${4:0} =&gt; '${5:Option 1}'),
+  '#description' =&gt; t('${6:Check it out.}'),
+  '#required' =&gt; ${7:FALSE},
+);</string>
+	<key>name</key>
+	<string>form_checkboxes</string>
+	<key>tabTrigger</key>
+	<string>form_checkboxes</string>
+	<key>uuid</key>
+	<string>4F3EB66E-23CC-485F-BC51-3C0AA07DEA7A</string>
+</dict>
+</plist>

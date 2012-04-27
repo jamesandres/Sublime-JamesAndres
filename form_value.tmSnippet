@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$form['${1:my_value}'] = array(
+  '#value' =&gt; '${2:&lt;em&gt;Free-form markup.&lt;/em&gt;}',
+);</string>
+	<key>name</key>
+	<string>form_value</string>
+	<key>tabTrigger</key>
+	<string>form_value</string>
+	<key>uuid</key>
+	<string>5FD5E0B1-EC5A-452F-81C2-921FF373071D</string>
+</dict>
+</plist>

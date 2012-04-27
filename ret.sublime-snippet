@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+\$ret[] = array('success' => ${1:TRUE}, 'query' => "${2:Successfully installed ...}");
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger><![CDATA[$ret]]></tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

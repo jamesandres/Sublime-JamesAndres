@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$form['${1:my_date}'] = array(
+  '#type' =&gt; 'date',
+  '#title' =&gt; t('${2:My Date}'),
+  '#default_value' =&gt; ${3:array('day' =&gt; 1, 'month' =&gt; 2, 'year' =&gt; 3)},
+  '#description' =&gt; t('${4:Please choose a date.}'),
+  '#required' =&gt; ${5:FALSE},
+);</string>
+	<key>name</key>
+	<string>form_date</string>
+	<key>tabTrigger</key>
+	<string>form_date</string>
+	<key>uuid</key>
+	<string>7A8B867A-0FE5-4D40-898D-CB8DBB0FABE4</string>
+</dict>
+</plist>

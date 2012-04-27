@@ -1,0 +1,4 @@
+[
+  { "keys": ["super+shift+h"], "command": "ja_math_dec_hex" },
+  { "keys": ["super+shift+d"], "command": "ja_math_hex_dec" }
+]

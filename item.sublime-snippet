@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+\$items['${1:admin/settings/${TM_FILENAME/([^.]*)\..*$/$1/}}'] = array(
+  'title' => '${2:Page title}',
+  'description' => '${3:Page description}',
+  'page callback' => '${4:drupal_get_form}',
+  'page arguments' => array('${5:${TM_FILENAME/([^.]*)\..*$/$1/}_admin_settings}'),
+${6:  'file' => '${TM_FILENAME/([^.]*)\..*$/$1/}.admin.inc',
+}  'access arguments' => array('${7:administer site configuration}'),
+);
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>item</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

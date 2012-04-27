@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$form['${1:my_radios}'] = array(
+  '#type' =&gt; 'radios',
+  '#title' =&gt; t('${2:My Radios}'),
+  '#default_value' =&gt; ${3:0},
+  '#options' =&gt; array(${4:0} =&gt; ${5:'Selection 1'}),
+  '#description' =&gt; t('${6:Please select an option.}'),
+  '#required' =&gt; ${7:FALSE},
+);</string>
+	<key>name</key>
+	<string>form_radios</string>
+	<key>tabTrigger</key>
+	<string>form_radios</string>
+	<key>uuid</key>
+	<string>9A5528DC-B631-4BC2-9D32-A8D1FDEA8E89</string>
+</dict>
+</plist>

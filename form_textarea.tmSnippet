@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$form['${1:my_textarea}'] = array(
+  '#type' =&gt; 'textarea',
+  '#title' =&gt; t('${2:My Textarea}'),
+  '#cols' =&gt; ${3:60},
+  '#rows' =&gt; ${4:5},
+  '#default_value' =&gt; ${5:'Some default text'},
+  '#description' =&gt; t('${6:Please enter some text.}'),
+  '#required' =&gt; ${7:FALSE},
+);</string>
+	<key>name</key>
+	<string>form_textarea</string>
+	<key>tabTrigger</key>
+	<string>form_textarea</string>
+	<key>uuid</key>
+	<string>977FEC3C-D23F-4F1B-82E7-2CFA4A791A15</string>
+</dict>
+</plist>

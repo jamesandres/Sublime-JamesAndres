@@ -1,0 +1,12 @@
+[{
+  "caption": "JA: Math DEC -> HEX",
+  "command": "ja_math_dec_hex"
+},
+{
+  "caption": "JA: Math HEX -> DEC",
+  "command": "ja_math_hex_dec"
+},
+{
+  "caption": "JA: PHP Unserialize",
+  "command": "ja_php_unserialize"
+}]

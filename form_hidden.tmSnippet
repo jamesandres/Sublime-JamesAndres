@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$form['${1:my_hidden_field}'] = array(
+  '#type' =&gt; 'hidden',
+  '#value' =&gt; '${2:Hidden field data}',
+);</string>
+	<key>name</key>
+	<string>form_hidden</string>
+	<key>tabTrigger</key>
+	<string>form_hidden</string>
+	<key>uuid</key>
+	<string>2514832C-832F-43EB-9F35-FE585083EA70</string>
+</dict>
+</plist>
