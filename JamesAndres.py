@@ -41,7 +41,7 @@ class JaPhpUnserializeCommand(sublime_plugin.TextCommand):
                                       stdout = subprocess.PIPE).communicate()[0]
 
       if unserialized != "false" or text == 'b:0;':
-        self.view.replace(edit, region, unserialized)
+        self.view.replace(edit, region, unserialized.decode("utf-8"))
       else:
         pass
 
@@ -61,7 +61,7 @@ class JaColumnizerCommand(sublime_plugin.TextCommand):
       # 3. Fit them 2 or 3 cols, needs to be configurable
 
       lines = text.split("\n")
-      lines = map(lambda s: s.strip(), lines)
+      lines = [s.strip() for s in lines]
 
       # Find the longest line, add 1 to it for padding
       longest = 0
