@@ -45,6 +45,21 @@ class JaPhpUnserializeCommand(sublime_plugin.TextCommand):
       else:
         pass
 
+class JaPhpSerializeCommand(sublime_plugin.TextCommand):
+  def run(self, edit):
+    sel = self.view.sel()
+
+    for region in sel:
+      word = self.view.word(region)
+      text = self.view.substr(word)
+
+      serialized = subprocess.Popen(["php",
+                                       "-r",
+                                       "ini_set('display_errors', 1); echo serialize(" + text + ");"],
+                                      stdout = subprocess.PIPE).communicate()[0]
+
+      self.view.replace(edit, region, serialized.decode("utf-8"))
+
 class JaColumnizerCommand(sublime_plugin.TextCommand):
   def run(self, edit, columns):
     sel = self.view.sel()

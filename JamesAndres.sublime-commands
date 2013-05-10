@@ -11,6 +11,10 @@
   "command": "ja_php_unserialize"
 },
 {
+  "caption": "JA: PHP Serialize",
+  "command": "ja_php_serialize"
+},
+{
   "caption": "JA: Columnizer 2-Columns",
   "command": "ja_columnizer",
   "args": {"columns": 2}
