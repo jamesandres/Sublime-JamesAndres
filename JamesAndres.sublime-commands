@@ -28,4 +28,13 @@
   "caption": "JA: Columnizer Fit Within Ruler",
   "command": "ja_columnizer",
   "args": {"columns": "fit"}
-}]
+},
+{
+  "caption": "JA: Reindent Python",
+  "command": "ja_reindent"
+},
+{
+  "caption": "JA: To Seconds",
+  "command": "ja_to_seconds"
+},
+]

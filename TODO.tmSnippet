@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>// TODO: ${1:text ...}.</string>
+	<string># TODO: ${1:text ...}.</string>
 	<key>name</key>
 	<string>TODO</string>
 	<key>tabTrigger</key>
